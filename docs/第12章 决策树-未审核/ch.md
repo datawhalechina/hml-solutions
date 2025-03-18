@@ -251,7 +251,7 @@ print('训练集大小：', len(train_x))
 print('测试集大小：', len(test_x))
 print('特征数：', train_x.shape[1])
 ```
-<img src="">
+<img src="output_1.png"/>
 
 ```python
 # 定义优化的决策树类
@@ -371,7 +371,7 @@ print('测试集报告：')
 print("\n")
 print(classification_report(test_y, DT.predict(test_x.to_numpy())))
 ```
-<img src="">
+<img src="output_2.png"/>
 
 6. 尝试将决策树应用到第11章支持向量机中用到的linear.csv和spiral.csv分类数据集上。先猜想一下分类效果与支持向量机相比如何，再用实验验证你的猜想。注意，需要先对连续特征离散化。
 - 对于线性可分的数据，决策树和支持向量机比较好地划分数据，决策树有明显的折线，说明是树的形式划分的
@@ -458,6 +458,15 @@ plot_decision_boundary(dt_spiral, X_spiral_train.values, y_spiral_train, title="
 print("spiral dataset - SVM Acc:", svm_spiral_accuracy)
 plot_decision_boundary(svm_spiral, X_spiral_train.values, y_spiral_train, title="spiral dataset - SVM")
 ```
+<img src="output_3.png"/>
+
+<img src="output_4.png"/>
+
+<img src="output_5.png"/>
+
+<img src="output_final.png"/>
+
+
 ### 7. 假设在一个二维数据的二分类任务中，最优分类边界是$x_1-x_2=0$，但是决策树模型只能沿着坐标轴的方向去切分二维数据空间，这样耗费很多分裂节点也无法取得很好的分类性能，试思考在此类情形下应该如何应对。
 解答：可以从三个角度出发：
 
