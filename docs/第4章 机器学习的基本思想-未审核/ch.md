@@ -123,3 +123,16 @@ print("最佳模型在测试集上的均方误差：", mse_test)
 print("最佳模型的参数：")
 print("系数（斜率）：", best_model.coef_)
 print("截距：", best_model.intercept_)
+```
+结果如下：
+```
+数据特征： Avg. Area Income, Avg. Area House Age, Avg. Area Number of Rooms, Avg. Area Number of Bedrooms, Area Population
+数据标签： Price
+数据总条数： 5000
+各模型的均方误差： [0.08091231 0.08605404 0.07910359 0.0816279  0.08354542]
+最佳模型的均方误差： 0.0860540387450174
+最佳模型在测试集上的均方误差： 0.08354542259852639
+最佳模型的参数：
+系数（斜率）： [0.65361133 0.46378742 0.34520317 0.00353179 0.42506886]
+截距： 0.002706822695746294
+```
