@@ -56,7 +56,7 @@
 
 **核心贡献者**
 - [魏庆伟-项目发起人](https://github.com/motewei)(Datawhale成员)
-- [陈辅元](https://github.com/Fuyuan-bit)
+- [陈辅元](https://github.com/Fuyuan-bit)(Datawhale成员)
 - [谢彩承](https://github.com/YoungBossX)(Datawhale意向成员、杭州电子科技大学研究生)
 - [白雪城](https://github.com/JackBaixue)(Datawhale成员、沈阳理工大学研究生)
 - [王莹莹](https://github.com/fuyueagain)
