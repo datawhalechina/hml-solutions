@@ -13,13 +13,13 @@
 如果觉得解答不详细、存在错误或有疑问，请[点击这里](https://github.com/motewei/Hands-on-ML-solutions/issues)提交您建议，我们看到后会尽快修改或答复。
 
 ### 在线阅读地址
-在线阅读地址：https://motewei.github.io/hml-solutions
+在线阅读地址：https://datawhalechina.github.io/hml-solutions/
 
 ### Notebook运行
 本项目提供了每个章节习题解答的jupyter notebook版本，包括相关的可运行的代码，只需克隆项目到本地即可使用。  
 1. 克隆项目请使用如下命令
     ```shell
-    git clone https://github.com/motewei/hml-solutions.git
+    git clone https://github.com/datawhalechina/hml-solutions.git
     ```
       
 2. python和相关依赖包版本
